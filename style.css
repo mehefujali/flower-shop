@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter";
+    margin: 0;
+    padding: 0%;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.hero-section {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    background-color: rgba(229, 84, 115, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-contener {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin: 0 15px;
+}
+
+.hero-text-pirt {
+    max-width: 500px;
+}
+
+.hero-text-pirt h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero-text-pirt p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.shop-btn {
+    padding: 15px 35px;
+    background-color: rgb(229, 84, 115);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.hero-image-pirt img {
+    max-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576PX) {
+    .hero-contener {
+        flex-direction: column-reverse;
+        padding-bottom: 15px;
+    }
+
+    .hero-text-pirt h1 {
+        font-size: 30px;
+
+    }
+
+    .hero-text-pirt {
+        max-width: 350px;
+    }
+}
