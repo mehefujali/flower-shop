@@ -23,9 +23,10 @@ button {
 .hero-contener {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 64px;
+    justify-content: space-around;
+
     margin: 0 25px;
+    width: 100%;
 }
 
 .hero-text-pirt {
@@ -67,7 +68,7 @@ button {
 
 
 
-@media screen and (max-width:576PX) {
+@media screen and (max-width:600PX) {
     .hero-contener {
         flex-direction: column-reverse;
         padding-bottom: 15px;
@@ -76,10 +77,17 @@ button {
     .hero-text-pirt h1 {
         font-size: 30px;
 
+
     }
 
     .hero-text-pirt {
         max-width: 350px;
+
+    }
+
+    .hero-text-pirt p {
+        text-align: justify;
+
     }
 
     .hero-image-pirt img {
