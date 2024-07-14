@@ -147,9 +147,55 @@ button {
 }
 
 
+/* Sell contener  */
+.sell-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(229, 84, 115, 0.1);
+    margin-bottom: 100px;
+    padding: 50px 0;
+}
+
+.sell-contener {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 
-@media screen and (max-width:600PX) {
+}
+
+.sell-text-pirt {
+    max-width: 450px;
+    text-align: center;
+    margin: 0 20px;
+
+
+}
+
+.sell-title {
+    font-size: 30px;
+
+}
+
+.sell-des {
+    font-size: 20px;
+    color: rgb(99, 99, 99);
+    margin: 30px 0;
+}
+
+
+
+
+/********************************************************************************
+                              Responcive  
+******************************************************************************************/
+
+
+
+
+
+
+@media screen and (max-width:576PX) {
     .hero-contener {
         flex-direction: column-reverse;
         padding-bottom: 15px;
@@ -182,6 +228,24 @@ button {
     .sarvice-contener {
         flex-direction: column;
         gap: 30px;
+        text-align: center;
     }
 
+    /* Sell contener  */
+
+    .sell-contener {
+        flex-direction: column-reverse;
+    }
+
+    .sell-img {
+        width: 200px;
+    }
+
+    .sell-text-pirt {
+        max-width: 300px;
+    }
+
+    .sell-text-pirt p {
+        text-align: justify;
+    }
 }
