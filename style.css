@@ -68,6 +68,63 @@ button {
 
 
 
+
+
+
+/* Our Featured Flowers     */
+
+.o-f-f {
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.o-f-f>h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.o-f-f>p {
+    max-width: 350px;
+    font-size: 16px;
+    color: rgb(73, 73, 73);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.our-flor-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 30px;
+}
+
+.graphis {
+    background-color: rgba(229, 84, 115, 0.1);
+
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 30px;
+    border-radius: 200px 200px 0 0;
+}
+
+.graphis img {
+    width: 230px;
+}
+
+.pink-f-t {
+    margin-top: 24px;
+    text-decoration: underline;
+}
+
+
+
+
 @media screen and (max-width:600PX) {
     .hero-contener {
         flex-direction: column-reverse;
@@ -93,4 +150,9 @@ button {
     .hero-image-pirt img {
         max-height: 300px;
     }
+
+    .our-flor-cards {
+        flex-direction: column;
+    }
+
 }
